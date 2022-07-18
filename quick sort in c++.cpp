@@ -34,14 +34,10 @@ int main(){
     int n;
     cin >> n;
     int val[n];
-    for (int i = 0; i < n; i++){
-        cin >> val[i];
-    }
+    for (int i = 0; i < n; i++) cin >> val[i];
     quick_sort(val, 0, n-1);
     cout << "output :" << endl;
-    for (int i = 0; i < n; i++){
-        cout << val[i] << endl;
-    }
+    for (int i = 0; i < n; i++) cout << val[i] << endl;
 
     return 0;
 }
